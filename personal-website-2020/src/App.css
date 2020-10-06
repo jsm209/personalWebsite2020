@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: "Roboto Condensed, sans-serif";
+    background-color: white; 
+}
+
+.headerButton {
+    transition: all .2s ease-in-out;
+    color: #23EDEC;
+}
+
+.headerButton:hover {
+    transform: scale(1.1);
+    color: #FF99E4;
+}
+
+.portrait {
+    transition: all .2s ease-in-out;
+}
+
+.portrait:hover {
+    transform: scale(1.1);
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/joshbackground.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
