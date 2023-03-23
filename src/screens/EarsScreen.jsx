@@ -12,7 +12,7 @@ function EyesScreen(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#23EDEC",
+        color: "#ED6167",
         paddingLeft: "15%",
         paddingTop: "50px"
     }

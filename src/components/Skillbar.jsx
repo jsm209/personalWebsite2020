@@ -8,12 +8,12 @@ function SkillBar(props) {
 
     let barLabel = {
         fontSize: "20px",
-        color: "#23EDEC" 
+        color: "#ED6167" 
     }
 
     let fullbarStyle = {
         fontSize: "40px",
-        color: "#23EDEC",
+        color: "#ED6167",
         display: "inline"
     }
 

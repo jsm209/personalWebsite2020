@@ -12,12 +12,12 @@ function TMUSReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let subtitleStyle = {
         fontSize: "30px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let pStyle = {
@@ -66,14 +66,14 @@ function TMUSReflection(props) {
                     team2name="Interns"
                     team2="Joshua Maza (TechX Intern)"
                     scope="Full-stack Web Development, Test Automation"
-                    time="Oct 2020 - Present"
+                    time="Oct 2020 - June 2021"
                     tools="Vue, Laravel, Docker, Jira, Gitlab, PHPStorm"
                 />
             </Fade>
 
             <Fade>
                 <div style={divStyle}>
-                    <p style={subtitleStyle}>This experience is still in progress, however I can reflect on a few lessons learned so far...</p>
+                    <p style={subtitleStyle}>Here are a few lessons I learned during this experience</p>
                     <p style={pStyle}><b>Knowing when and how to ask for help</b></p>
                     <p style={pStyle}>This is by far the biggest lesson I've learned and struggled with daily. I
                         strongly believe in the idea that a struggle is healthy, because it indicates that one is in a

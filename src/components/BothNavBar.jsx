@@ -31,7 +31,7 @@ class BothNavBar extends React.Component {
 
         let titleStyle = {
             fontSize: "40px",
-            color: "#23EDEC"
+            color: "#ED6167"
         }
 
         let pStyle = {

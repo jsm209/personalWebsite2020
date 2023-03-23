@@ -36,12 +36,11 @@ class EyesNavBar extends React.Component {
 
         let seemoreStyle = {
             fontSize: "20px",
-            color: "#23EDEC",
-            fontStyle: "italic",
+            color: "white",
+            backgroundColor: "#ED6167",
             textAlign: "right",
-            border: "1px solid black",
-            padding: "7px",
-            borderRadius: "25px",
+            padding: "10px 40px",
+            borderRadius: "40px",
             display: "inline",
             position: "absolute",
             right: "0"
@@ -70,7 +69,13 @@ class EyesNavBar extends React.Component {
                     </div>
                     <ContentSection
                         heading="T-Mobile"
-                        subheading="TechX Software Engineer Internship (Oct 2020 - Present)"
+                        subheading="Software Engineer/iOS Developer (July 2021 - Present)"
+                        content="Key developer for numerous consumer facing applications. I was exposed to many different iOS development technologies and methods, more information coming soon."
+                        src="images/tmobilelogo.jpg"
+                    />
+                    <ContentSection
+                        heading="T-Mobile"
+                        subheading="TechX Software Engineer Internship (Oct 2020 - June 2021)"
                         content="Nine-month TechX internships offer real-world experience for students currently
                         enrolled in an undergraduate degree program and majoring in engineering or another technology-related field.
                         I work on an internal knowledge base tool that helps customers in T-Mobile stores across the world."
@@ -80,7 +85,7 @@ class EyesNavBar extends React.Component {
                         <Fade>
                             <p style={seemoreStyle} onClick={() => {
                                 this.handleClick("tmobile");
-                            }}>see more...</p>
+                            }}>Show More</p>
                         </Fade>
                     </div>
 
@@ -96,7 +101,7 @@ class EyesNavBar extends React.Component {
                         <Fade>
                             <p style={seemoreStyle} onClick={() => {
                                 this.handleClick("isb");
-                            }}>see more...</p>
+                            }}>Show More</p>
                         </Fade>
                     </div>
                     <ContentSection
@@ -113,7 +118,7 @@ class EyesNavBar extends React.Component {
                             <p style={seemoreStyle} onClick={() => {
                                 this.handleClick("rdr");
                             }
-                            }>see more...</p>
+                            }>Show More</p>
                         </Fade>
 
                     </div>

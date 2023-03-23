@@ -12,12 +12,12 @@ function ExspireReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let subtitleStyle = {
         fontSize: "30px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let pStyle = {

@@ -12,12 +12,12 @@ function BeatfoxflowReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let subtitleStyle = {
         fontSize: "30px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let pStyle = {
@@ -25,7 +25,7 @@ function BeatfoxflowReflection(props) {
     }
 
     let linkStyle = {
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let liStyle = {
