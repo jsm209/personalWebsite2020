@@ -71,14 +71,14 @@ function App() {
                         <Route path="/josh">
                             <HeaderSection
                                 title="J O S H"
-                                subtitle="is a full-stack developer, audio engineer, and game developer."
+                                subtitle="is an iOS developer, full-stack developer, game developer, and an audio engineer."
                             />
                             <JoshScreen />
                         </Route>
                         <Route path="/eyes">
                             <HeaderSection
                                 title="P R O G R A M M I N G"
-                                subtitle="Full stack web dev, software engineering, databases, and more."
+                                subtitle="iOS development, web dev, and more."
                             />
                             <EyesScreen />
                         </Route>
@@ -138,7 +138,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <p style={center}>Designed by Joshua Maza, 2021</p>
+                <p style={center}>Designed by Joshua Maza, 2023</p>
                 <AwesomeButton
                     style={{ display: "block", margin: "auto", width: "100px" }}
                     type="primary"

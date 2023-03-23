@@ -12,13 +12,13 @@ function RDRReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let subtitleStyle = {
         fontSize: "20px",
         fontStyle: "italic",
-        color: "#23EDEC"
+        color: "#ED6167"
     }
 
     let pStyle = {

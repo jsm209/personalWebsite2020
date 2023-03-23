@@ -65,7 +65,13 @@ function HeaderSection(props) {
     let resumeButton =
 
         <AwesomeButton
-        style={{ display: "block", margin: "auto", width: "100px", marginTop: "50px" }}
+        style={{ 
+            display: "block", 
+            margin: "auto", 
+            width: "100px", 
+            marginTop: "50px",
+            backgroundColor: "#ED6167" 
+        }}
         type="primary"
         href="resume"
     >
