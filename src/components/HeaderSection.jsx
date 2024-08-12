@@ -30,7 +30,7 @@ function HeaderSection(props) {
     }
 
     let subtitleStyle = {
-        fontSize: "20px",
+        fontSize: "16px",
         fontStyle: "italic",
         color: "#FFFFFF",
         position: "relative",
@@ -70,7 +70,7 @@ function HeaderSection(props) {
             margin: "auto", 
             width: "100px", 
             marginTop: "50px",
-            backgroundColor: "#ED6167" 
+            backgroundColor: "#606c38" 
         }}
         type="primary"
         href="resume"

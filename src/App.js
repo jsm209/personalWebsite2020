@@ -5,6 +5,7 @@ import './fonts.css';
 
 import "react-awesome-button/dist/styles.css";
 
+import ParticlesBg from 'particles-bg';
 
 // React Router
 import {
@@ -27,13 +28,14 @@ import EyesScreen from './screens/EyesScreen';
 import EarsScreen from './screens/EarsScreen';
 import BothScreen from './screens/BothScreen';
 import ResumeScreen from "./screens/ResumeScreen";
+import ColumnLandingScreen from './screens/ColumnLandingScreen';
 
 function App() {
 
     let appStyle = {
-        backgroundColor: "white",
         color: "black",
-        fontFamily: "Barlow, sans-serif"
+        backgroundColor: "#fefae0",
+        color: "black"
     }
 
     let footerStyle = {
@@ -56,12 +58,9 @@ function App() {
         color: "inherit"
     }
 
-    console.log("test");
-
     return (
         <div className="App" style={appStyle}>
-
-            <Router>
+                        <Router>
                 <MainNavBar />
                 <br />
                 <div>
@@ -116,29 +115,29 @@ function App() {
                                 <a className="portrait" href="https://github.com/jsm209" style={linkStyle} target="_blank">
                                     <i className="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                                 </a>
-                                <a className="portrait" href="https://mazaa.itch.io/" style={linkStyle} target="_blank">
-                                    <img src="images/itchio.png" style={{width: "30px", height: "30px"}}/>
-                                </a>
-                                <a className="portrait" href="https://twitter.com/mazaamusic" style={linkStyle} target="_blank">
+                                {/* <a className="portrait" href="https://twitter.com/mazaamusic" style={linkStyle} target="_blank">
                                     <i className="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                                </a>
+                                </a> */}
                                 <a className="portrait" href="https://open.spotify.com/artist/6VqLTxzQnYAUsSxxlwJ6lK" style={linkStyle} target="_blank">
                                     <i className="fab fa-spotify fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                                 </a>
                                 <a className="portrait" href="https://soundcloud.com/mazaamusic" style={linkStyle} target="_blank">
                                     <i className="fab fa-soundcloud fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                                 </a>
-                                <a className="portrait" href="https://www.instagram.com/joshuasmaza/" style={linkStyle} target="_blank">
+                                {/* <a className="portrait" href="https://www.instagram.com/joshuasmaza/" style={linkStyle} target="_blank">
                                     <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                                </a>
-                                <a className="portrait" href="https://www.facebook.com/joshua.maza.16" style={linkStyle} target="_blank">
+                                </a> */}
+                                {/* <a className="portrait" href="https://www.facebook.com/joshua.maza.16" style={linkStyle} target="_blank">
                                     <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a> */}
+                                <a className="portrait" href="https://mazaa.itch.io/" style={linkStyle} target="_blank">
+                                    <img src="images/itchio.png" style={{width: "30px", height: "30px"}}/>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p style={center}>Designed by Joshua Maza, 2023</p>
+                <p style={center}>Designed by Joshua Maza, 2024</p>
                 <AwesomeButton
                     style={{ display: "block", margin: "auto", width: "100px" }}
                     type="primary"

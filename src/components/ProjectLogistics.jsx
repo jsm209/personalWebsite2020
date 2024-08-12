@@ -17,7 +17,7 @@ function ProjectLogistics(props) {
     }
 
     let titleStyle = {
-        fontSize: "20px",
+        fontSize: "16px",
         color: "#000000",
     }
 
@@ -34,7 +34,8 @@ function ProjectLogistics(props) {
     }
 
     let cardStyle = {
-        margin: "20px"
+        margin: "20px",
+        backgroundColor: 'rgba(0, 0, 0, 0)', // Fully transparent
     }
 
     let smallCardStyle = {
@@ -42,7 +43,8 @@ function ProjectLogistics(props) {
         display: "inline",
         width: "30%",
         margin: "auto",
-        height: "150px"
+        height: "180px",
+        backgroundColor: 'rgba(0, 0, 0, 0)', // Fully transparent
     }
 
     return(
