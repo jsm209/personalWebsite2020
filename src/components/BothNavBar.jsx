@@ -31,11 +31,11 @@ class BothNavBar extends React.Component {
 
         let titleStyle = {
             fontSize: "40px",
-            color: "#ED6167"
+            color: "#606c38"
         }
 
         let pStyle = {
-            fontSize: "20px",
+            fontSize: "16px",
             textDecoration: "none",
             color: "lack",
             textAlign: "center"
@@ -82,6 +82,10 @@ class BothNavBar extends React.Component {
             marginTop: "50px"
         }
 
+        let linkStyle = {
+            color: "inherit"
+        }
+
         if (this.state.showSummary == "") {
             return (
                 <div>
@@ -125,6 +129,9 @@ class BothNavBar extends React.Component {
                                 </div>
                             </Fade>
                         </div>
+                    </div>
+                    <div style={divStyle}>
+                        <p style={pStyle}><i>Other games not listed here can be found on my <a href="https://mazaa.itch.io/" style={linkStyle} target="_blank">itch.io page</a> or my <a href="https://github.com/jsm209" style={linkStyle} target="_blank">github profile</a>.</i></p>
                     </div>
                 </div>
             )

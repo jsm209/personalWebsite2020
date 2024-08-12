@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "Roboto Condensed, sans-serif";
-    background-color: white; 
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove bold */
+    font-size: inherit;  /* Change font size */
+    /* Add any additional styling */
 }
 
 .headerButton {
     transition: all .2s ease-in-out;
-    color: #ED6167;
+    color: #606c38;
 }
 
 .headerButton:hover {
     transform: scale(1.1);
-    color: #FF99E4;
+    color: #dda15e;
 }
 
 .portrait {

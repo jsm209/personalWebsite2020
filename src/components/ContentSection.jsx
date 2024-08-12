@@ -13,18 +13,18 @@ function ContentSection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#ED6167"
+        color: "#606c38"
     }
 
     let subtitleStyle = {
-        fontSize: "20px",
+        fontSize: "16px",
         fontStyle: "italic",
-        color: "#ED6167",
-        fontWeight: "normal"
+        color: "#606c38",
+        fontWeight: "light"
     }
 
     let pStyle = {
-        fontSize: "20px"
+        fontSize: "16px"
     }
 
     let divStyle = {

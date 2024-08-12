@@ -12,16 +12,16 @@ function TMUSReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#ED6167"
+        color: "#606c38"
     }
 
     let subtitleStyle = {
         fontSize: "30px",
-        color: "#ED6167"
+        color: "#606c38"
     }
 
     let pStyle = {
-        fontSize: "20px"
+        fontSize: "16px"
     }
 
 
@@ -56,7 +56,7 @@ function TMUSReflection(props) {
             <ContentSection
                 heading="TechX Software Engineer Internship"
                 content=""
-                src="images/tmobilelogo.jpg"
+                src="images/tmobilelogo.png"
             />
 
             <Fade>

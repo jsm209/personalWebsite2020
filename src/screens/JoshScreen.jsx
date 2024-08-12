@@ -8,23 +8,24 @@ import SkillBar from "../components/Skillbar";
 function JoshScreen(props) {
 
     let titleStyle = {
-        fontSize: "40px",
-        color: "#ED6167"
+        fontSize: "30px",
+        color: "#606c38"
     }
 
     let pStyle = {
-        fontSize: "20px"
+        fontSize: "16px"
     }
 
     let subtitleStyle = {
         fontStyle: "italic",
-        fontSize: "18px",
+        fontSize: "16px",
         textAlign: "center"
     }
 
     let divStyle = {
         width: "70%",
-        margin: "auto"
+        margin: "auto",
+        paddingTop: "40px"
     }
 
     let skillsFlexbox = {
@@ -40,7 +41,7 @@ function JoshScreen(props) {
             {/* Josh Page */}
 
             <ContentSection
-                heading="// welcome"
+                heading="welcome"
                 content="Hi, I'm Josh and I'm currently a software engineer and iOS developer for T-Mobile.
                 Through my work I've grown a passion for UI development, and worked in diverse teams to improve 
                 the user experience for several consumer facing applications. If you're interested in learning more 
@@ -62,21 +63,28 @@ function JoshScreen(props) {
             />
 
             <div style={divStyle}>
-                <p style={subtitleStyle}>*Informatics is the study of information. My degree path focuses on software engineering and data science.</p>
+                <p style={subtitleStyle}>*Informatics is the study of information. My degree path focused on software engineering and data science.</p>
             </div>
 
             <div style={divStyle}>
-                <h1 style={titleStyle}>// about me</h1>
+                <h1 style={titleStyle}>about me</h1>
+                <p>I am a mobile and web front end developer with over 3 years of full time experience as an iOS developer and 3 years of prior internship experience 
+                    in web development. My key strengths include a high degree of self autonomy and skill for self teaching and quick learning, and managing time and tasks 
+                    in cross team collaboration. I have strong communication skills for navigating spaces in the face of ambiguity, and passionate about contributing and 
+                    working with others. My professional objectives include collaborating with and leading others to translate business requirements into delivered results 
+                    through technology solutions, pursuing challenging opportunities for growth, and supporting everyone in the face of challenging work.</p>
                 <ul>
-                    <li style={pStyle}>Currently an <b>iOS Developer</b> with nearly 3 years of experience at <b>T-Mobile</b>.</li>
+                    <li style={pStyle}>Currently a <b>software engineer</b> with over 3 years of experience in iOS and web development at <b>T-Mobile</b>.</li>
+                    <li style={pStyle}>A self published <b>indie game developer</b> and <b>iOS developer</b>.</li>
                     <li style={pStyle}>Majored in Informatics and minored in Entrepreneurship.</li>
-                    <li style={pStyle}>Strong passion for <b>Entrepreneurship</b> and pitch competitions.</li>
-                    <li style={pStyle}>A budding self published <b>indie game developer</b> and <b>iOS developer</b>.</li>
+                    <li style={pStyle}>Strong passion for <b>entrepreneurship</b> and <b>audio engineering</b>.</li>
+                    <li style={pStyle}>Runs an online side business as a <b>producer and mixing engineer</b> for a growing clientbase.</li>
                     <li style={pStyle}>Produces <b>EDM, rap, and pop music,</b> and <b>DJs</b> music in local Seattle clubs and as an opener for touring EDM acts.</li>
                 </ul>
+                <p style={pStyle}>Reach out and connect with me on my <a href={"https://www.linkedin.com/in/joshuasmaza/"} target="_blank">Linkedin Page.</a>!</p>
             </div>
 
-            <div style={divStyle}>
+            {/* <div style={divStyle}>
                 <h1 style={titleStyle}>// goals</h1>
                 <ul>
                     <li style={pStyle}>(Short-Term) Bench 2 plates or 225 lbs.</li>
@@ -87,32 +95,17 @@ function JoshScreen(props) {
                     <li style={pStyle}>(Long-Term) Build a personal music studio in Seattle to help produce/mix/master music for local artists.</li>
                     <li style={pStyle}>(Long-Term) Create sustained side income through self published apps in the Apple app store.</li>
                 </ul>
-            </div>
+            </div> */}
 
             <div style={divStyle}>
-                <h1 style={titleStyle}>// skills</h1>
+                <h1 style={titleStyle}>skills</h1>
             </div>
 
             <div style={skillsFlexbox}>
                 <div>
-                    <p style={pStyle}>iOS Skills</p>
-                    <table>
-                        <SkillBar skill="Apple Design Guidelines" points={5}/>
-                        <SkillBar skill="Accessibility Features in Swift" points={5}/>
-                        <SkillBar skill="Cocoapods" points={5}/>
-                        <SkillBar skill="Combine" points={3}/>
-                        <SkillBar skill="NSCache" points={4}/>
-                        <SkillBar skill="Resolver" points={5}/>
-                        <SkillBar skill="RxSwift" points={3}/>
-                        <SkillBar skill="Storyboards" points={5}/>
-                        <SkillBar skill="Swift" points={5}/>
-                        <SkillBar skill="SwiftUI" points={5}/>
-                        <SkillBar skill="Swift Package Manager (SPM)" points={5}/>
-                    </table>
-                </div>
-                <div>
                     <p style={pStyle}>Full Stack (Web dev) Skills</p>
                     <table>
+                        <SkillBar skill="Angular" points={5}/>
                         <SkillBar skill="Bootstrap" points={5}/>
                         <SkillBar skill="C#" points={3}/>
                         <SkillBar skill="Golang" points={2}/>
@@ -129,6 +122,23 @@ function JoshScreen(props) {
                         <SkillBar skill="React" points={5}/>
                         <SkillBar skill="Vue" points={3}/>
                         
+                    </table>
+                </div>
+                <div>
+                    <p style={pStyle}>iOS Skills</p>
+                    <table>
+                        <SkillBar skill="Apple Design Guidelines" points={5}/>
+                        <SkillBar skill="Accessibility Features in Swift" points={5}/>
+                        <SkillBar skill="Cocoapods" points={5}/>
+                        <SkillBar skill="Combine" points={3}/>
+                        <SkillBar skill="NSCache" points={4}/>
+                        <SkillBar skill="Resolver" points={5}/>
+                        <SkillBar skill="RxSwift" points={3}/>
+                        <SkillBar skill="Storyboards" points={5}/>
+                        <SkillBar skill="Swift" points={5}/>
+                        <SkillBar skill="SwiftUI" points={5}/>
+                        <SkillBar skill="Swift Package Manager (SPM)" points={5}/>
+                        <SkillBar skill="XCTest" points={5}/>
                     </table>
                 </div>
                 <div>
@@ -151,7 +161,7 @@ function JoshScreen(props) {
             </div>
 
             <div style={divStyle}>
-                <p style={subtitleStyle}>1-5 ranges from 1 = not comfortable, 3 = usable skills, and 5 = comfortable using</p>
+                <p style={subtitleStyle}>1-5 ranges from 1 = surface level understanding, 3 = moderate understanding, and 5 = deep understanding</p>
             </div>
 
         </div>

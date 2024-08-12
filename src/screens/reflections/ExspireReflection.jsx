@@ -12,16 +12,16 @@ function ExspireReflection(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#ED6167"
+        color: "#606c38"
     }
 
     let subtitleStyle = {
         fontSize: "30px",
-        color: "#ED6167"
+        color: "#606c38"
     }
 
     let pStyle = {
-        fontSize: "20px"
+        fontSize: "16px"
     }
 
     let liStyle = {
@@ -46,6 +46,11 @@ function ExspireReflection(props) {
         padding: "100px"
     }
 
+    let footnoteStyle = {
+        fontStyle: "italic",
+        textAlign: "center"
+    }
+
     return (
         <div>
             {/* Reflection */}
@@ -54,29 +59,33 @@ function ExspireReflection(props) {
                 content="ExSpire is a bullet hell dungeon crawler where time is a currency. 
                 Explore what makes you tick, manage your seconds, and climb The Spire to undercover 
                 its secrets. Create an adventurer, roll your stats, and fight your way up by surviving 
-                the tests and challenges trapped within levels of this dangerous tower. It will be released
-                late fall 2020."
+                the tests and challenges trapped within levels of this dangerous tower."
                 src="images/exspiregame/HeaderCapsuleImage.png"
             />
 
             <ContentSection
                 content="I built this entire project out from scratch and by myself, handling all aspects of
-                development from planning, prototyping/ideating, testing, marketing, etc. I'm planning on establishing
-                online communities (Twitter/Discord). After getting an initial version out and earning some initial 
-                revenue, will take further post release feedback and expand the development team then to include more people."
+                development from planning, prototyping/ideating, testing, marketing, etc. It was built in Unity over
+                the course of several months where I practiced agile development practices with Trello and branch based
+                development, as well as handle non-programming work such as drawing graphics and level design."
             />
 
             <ProjectLogistics
                 team1name="Developers"
                 team1="Joshua Maza"
                 scope="Game Development, Character and Level Design, 2D Pixel Art, UI Design, Environmental Storytelling and World Building"
-                time="June - Current"
+                time="April 2021 - June 2021"
                 tools="Unity, Piskel, FL Studio 20"
             />
+                        
+            <div style={divStyle}>
+                    <p style={footnoteStyle}>(Visit the steam page below or <a href="https://video.akamai.steamstatic.com/store_trailers/256839388/movie_max_vp9.webm?t=1623921897" target="_blank">click here</a> for a demo video)</p>
+            </div>
 
             <Fade>
                 <iframe src="https://store.steampowered.com/widget/1423620/" frameborder="0" width="646" height="190" style={iFrameStyle} ></iframe>
             </Fade>
+
 
             <Fade>
                 <div style={divStyle}>
@@ -90,7 +99,6 @@ function ExspireReflection(props) {
                         <li style={liStyle}>Dialogue interactions</li>
                         <li style={liStyle}>Item system</li>
                     </ol>
-                    <p>And more to come.. </p>
                 </div>
             </Fade>
 
@@ -105,6 +113,14 @@ function ExspireReflection(props) {
                     <img style={imgStyle} src="images/exspiregame/screenshot5.png" />
                 </div>
             </Fade>
+            <div style={divStyle}>
+                <p style={footnoteStyle}>Note (8/6/2024):</p>
+                <p style={footnoteStyle}>Unfortunately this game never actually "released" because I focused on 
+                starting my role at T-Mobile out of college. However I did complete all the Steam publishing pipeline 
+                tasks and successfully uploaded a complete final demo of my work on the Steam game page linked above. 
+                I did not feel comfortable charging money for this as it was not my full final vision for the game. I may
+                revisit this in the future but it is not likely.</p>
+            </div>
         </div>
     )
 }

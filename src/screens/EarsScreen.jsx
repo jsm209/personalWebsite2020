@@ -12,13 +12,13 @@ function EyesScreen(props) {
 
     let titleStyle = {
         fontSize: "40px",
-        color: "#ED6167",
+        color: "#606c38",
         paddingLeft: "15%",
         paddingTop: "50px"
     }
 
     let pStyle = {
-        fontSize: "20px",
+        fontSize: "16px",
         paddingLeft: "15%",
         width: "70%"
     }
@@ -46,31 +46,157 @@ function EyesScreen(props) {
     return (
         <div>
             {/* Eyes Page */}
+            <ContentSection
+                heading="Emerald Noise"
+                subheading="Producer and Mixing Engineer"
+                content="'Emerald Noise is an online business I started in 2024 for providing production and mixing services, as well as providing consultation and lessons. It started from helping out friends to now serving a growing clientbase of other musicians. As of now due to my schedule and workload, it is not open to the public yet but will be in the near future."
+                src="images/joshua2.jpg"
+            />
+{/* 
+            <ContentSection
+                heading="Rising Sons"
+                subheading="Recording, Producer, and Mixing Engineer"
+                content="'Rising Sons' is an upcoming music collective I started in early 2020 that consists of myself and a group of vocalists. Combining our backgrounds in rap, hip-hop, pop, and EDM, we aim to produce the next wave of Asian and American pop-culture music."
+                src="images/risingsonslogo.jpg"
+            /> */}
 
+            <ContentSection
+                heading="MAZAA"
+                subheading="EDM DJ/Producer"
+                content="'MAZAA' is my personal music brand. For the past 7 years I have been self learning and built foundation in music production through online classes, YouTube, and meeting other producers and mixing engineers in Seattle. Below you can find a bit of my discography. For more, visit my Soundcloud profile."
+                src="images/mazaalogo.png"
+            />
             <Fade>
-                <h1 style={titleStyle}>LGCY Core</h1>
+                <h1 style={titleStyle}>LGCY (2021-2024)</h1>
                 <p style={pStyle}>In January 2021, I joined a local Seattle based electronic music collective called LGCY.
-                    is dedicated to producing memories and carving legacies for others through various forms of creative
-                    arts and media. Founded and rooted from Asian American identities, we strive to empower representation
+                    It was dedicated to producing memories and carving legacies for others through various forms of creative
+                    arts and media. Founded and rooted from Asian American identities, we strived to empower representation
                     and motivate Asian Americans to follow their creative aspirations.</p>
 
                 <p style={pStyle}> Consisting of DJs, music producers, graphic artists, and other community members,
-                    LGCY produces events, most of which are music charity events raising money for causes from COVID-19
-                    to addressing racial inequality and awareness. We partner with other music collectives like Scrubs \
-                    Collective in Hawaii, and Pastel and BTO in California to empower small and local music artists.</p>
+                    LGCY produced events, most of which are music charity events raising money for causes from COVID-19
+                    to addressing racial inequality and awareness. We partnered with other music collectives like Scrubs \
+                    Collective in Hawaii, Pastel, and BTO in California to empower small and local music artists.</p>
+
+                 <p style={pStyle}> Through LGCY I've had the opportunity to DJ at nearly all the major venues and clubs
+                 in Seattle. I've also been so fortunate and thankful to have the support of so many friends in the creative
+                 industry to help me with booking, photography, and media. Below are the most notable events I've performed 
+                 at, mainly as an opener for various Seattle tour stops for some of my biggest music inspirations:</p>
+                 
+                 <div style={divStyle}>
+
+                </div>
+
+
             </Fade>
 
             <Fade>
                 <div style={divStyle}>
+                    <ul>
+                        <li>7/1/2024 - San Holo @ Hanger 30</li>
+                        <li>4/5/2024 - Beauz @ Q Nightclub</li>
+                        <li>3/15/2024 - Mitis @ Showbox Sodo</li>
+                        <li>9/3/2023 - Sabai and Hoang @ Showbox Market</li>
+                        <li>8/16/2023 - Bass Canyon Local Stage</li>
+                        <li>7/27/2023 - JVNA @ Trinity</li>
+                        <li>7/8/2023 - LGCY & Friends @ Neumos</li>
+                        <li>3/11/2023 - Kaivon @ Showbox Sodo</li>
+                        <li>7/15/2022 - Trivecta @ Neumos</li>
+                        <li>7/14/2022 - LGCY & Friends @ Neumos</li>
+                        <li>6/10/2022 - Crystal Skies @ Neumos</li>
+                        <li>2/4/2022 - ARMNHMR @ Showbox Market</li>
+                        <li><i>Also various club night gigs at local clubs.</i></li>
+                    </ul>
                     <img src="images/lgcymedialogo.jpg" style={imgStyle} />
                     <img src="images/lgcyguestmixart.jpg" style={imgStyle} />
                 </div>
                 <div style={divStyle}>
-                    <ReactPlayer url='https://soundcloud.com/lgcymedia/mazaafm' width="100%" height="150px" />
+                    <p>For more info about MAZAA or social media content, <a href="https://www.instagram.com/mazaa_music/" target="_blank">click here</a> to find my instagram.</p>
+                    <p>Below are some examples of sets, <a href="https://soundcloud.com/mazaamusic/sets/mazaa-mixes" target="_blank">click here</a> to find other mixes on my Soundcloud page.</p>
+                    <ReactPlayer url='https://soundcloud.com/mazaamusic/opener-set-kaivon-awakening-tour-hardwave-trap-dubstep?in=mazaamusic/sets/mazaa-mixes' width="100%" height="100px" />
+                    <ReactPlayer url='https://soundcloud.com/mazaamusic/slope-bomber?in=mazaamusic/sets/mazaa-mixes' width="100%" height="100px" />
+                    <ReactPlayer url='https://soundcloud.com/mazaamusic/reminiscence' width="100%" height="100px" />
+                    <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-live-ep-003-journey-midtempofuture-bassdubstep-mix-of-armnhmr-illenium-seven-lions-porter-etc' width="100%" height="100px" />
                 </div>
+                
             </Fade>
 
             <Fade>
+                <h1 style={titleStyle}>Recent Work</h1>
+            </Fade>
+
+            <div style={divStyle}>
+                <p>Below are some examples of sets, <a href="https://soundcloud.com/mazaamusic/sets/mazaa" target="_blank">click here</a> to find my full discography.</p>
+            </div>
+            <div style={divStyle}>
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/here-right-now' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-forget-the-world-chasing-cars?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/i-just-cant-stop-neyo-closer-remix-free-download?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-when-im-gone?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/noiseprn/mazaa-palisade-breached?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+            </div>
+            <div style={divStyle}>
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/exodia-mazaa-remix?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/noiseprn/mazaa-ft-katie-butler-helios?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-fade-away-laquana-party?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/beasttrap/mazaa-breathtaking?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/dont-look-down-mazaa-remix?in=mazaamusic/sets/mazaa' width="200px" height="200px" />
+            </div>
+
+            <ContentSection
+                    heading="Kenopsia"
+                    content="'Kenopsia' is defined as the eerie, forlorn atmosphere of a place that is usually bustling with people but is now abandoned 
+                    and quiet. It captures the haunting feeling one may experience when in a space that was once filled with activity and life but is now 
+                    deserted or abandoned. The term combines the Greek words 'keno,' meaning empty, and 'opsia,' meaning seeing or viewing.
+
+                    In the context of my life, this EP draws inspiration from a past breakup and the ensuing challenges. The spaces that were once filled 
+                    with life are both physically and emotionally empty, and I had to push myself to be whole again on my own. The somber mood of the EP is 
+                    embodied by drawing on inspiration from personal identity experiences in my newly single and solo life, such as my trip to Korea, struggles 
+                    with feeling out of place, and finding new belonging with friends again."
+                    src="images/kenopsia.jpg"
+            />
+
+            <div style={divStyle}>
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/hongdae-smoke?in=mazaamusic/sets/kenopsia' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/ronin?in=mazaamusic/sets/kenopsia' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/anachronism?in=mazaamusic/sets/kenopsia' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/spark?in=mazaamusic/sets/kenopsia' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/get-home-safe-without-you?in=mazaamusic/sets/kenopsia' width="100%" height="100px" />
+            </div>
+
+            <ContentSection
+                    heading="Wayfarer"
+                    content="'Wayfarer' is a 2 track electronic music EP I released in December of 2021 that combines into a seamless 
+                    10 minute long listening experience. It is called Wayfarer because it has an overall theme of taking the listener 
+                    on a journey through various BPMs and EDM inspired sections. It was also the first time I hired help for mastering
+                    and started gaining experience and tutoring from working with mastering engineers."
+                    src="images/wayfarer.jpg"
+            />
+
+            <div style={divStyle}>
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-vagabond?in=mazaamusic/sets/wayfarer' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-saga?in=mazaamusic/sets/wayfarer' width="100%" height="100px" />
+            </div>
+
+            <ContentSection
+                heading="Late Bloomer"
+                content="'Late Bloomer' is a 10 track electronic album I released in February of 2019. The goal of this project
+                    was to capture my adolescence as both a new producer as well as my experiences in high school. Personally, I often
+                    turn to music as a channel to vent emotions, and the stress of moving to a new city for high school, as well as
+                    engaging with the rigor of the IB program led to the creation of tracks that reflected those events as well as my growth
+                    as a producer."
+                src="images/latebloomer.png"
+            />
+
+            <ContentSection
+                heading="hibiscus"
+                content="'hibiscus' is a 10 track lofi/chill beats album I released in December of 2019. Like many artists, music for me
+                    is a reflection of life experiences. I stumbled on some old voice recordings, pictures, and videos of past, long gone relationships,
+                    and took inspiration and samples from them to piece together an album that represents my personality and general mood about relationships in general."
+                src="images/hibiscus.png"
+            />
+
+<Fade>
                 <h1 style={titleStyle}>Emerald Noise 2020</h1>
                 <p style={pStyle}>In May 2020, I organized and produced an online music event for charity,
                 raising nearly $1k in donations while supporting local musicians. Through a combination
@@ -108,8 +234,8 @@ function EyesScreen(props) {
                 src="images/beatmatch2020.png"
             />
             <div style={divStyle}>
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/rising-son' width="100%" height="150px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/thrive' width="100%" height="150px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/rising-son' width="100%" height="100px" />
+                <ReactPlayer url='https://soundcloud.com/mazaamusic/thrive' width="100%" height="100px" />
             </div>
 
             <ContentSection
@@ -119,74 +245,6 @@ function EyesScreen(props) {
                 src="images/tylerdopps.jpg"
                 right={true}
             />
-
-            <ContentSection
-                heading="Rising Sons"
-                subheading="Recording and Mixing Engineer"
-                content="'Rising Sons' is an upcoming music collective I started in early 2020 that consists of myself and a group of vocalists. Combining our backgrounds in rap, hip-hop, pop, and EDM, we aim to produce the next wave of Asian and American pop-culture music."
-                src="images/risingsonslogo.jpg"
-            />
-
-            <ContentSection
-                heading="MAZAA"
-                subheading="FL Studio 12, FL Studio 20"
-                content="'MAZAA' is my personal music brand. For the past 4 years I have been self learning and built foundation in music production through online classes, YouTube, and meeting other producers and mixing engineers in Seattle. Below you can find a bit of my discography. For more, visit my Soundcloud profile."
-                src="images/mazaalogo.png"
-            />
-
-            <Fade>
-                <h1 style={titleStyle}>Recent Work</h1>
-            </Fade>
-
-            <div style={divStyle}>
-                <ReactPlayer url='https://soundcloud.com/lgcymedia/mazaa005' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/yami_produces/mazaa-x-yami-carousel' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/from-you' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/cant-stay-here' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/never-gone-1' width="200px" height="200px" />
-            </div>
-            <div style={divStyle}>
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/dearly-beloved' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/ekali-runaway-ft-reo-cragun-mazaa-remix' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/the-glitch-mob-how-could-this-be-wrong-mazaa-remix' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/tungevaag-raaban-all-for-love-mazaa-remix' width="200px" height="200px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/galantis-spaceship-mazaa-remix' width="200px" height="200px" />
-            </div>
-
-            <ContentSection
-                heading="Late Bloomer"
-                content="'Late Bloomer' is a 10 track electronic album I released in February of 2019. The goal of this project
-                    was to capture my adolescence as both a new producer as well as my experiences in high school. Personally, I often
-                    turn to music as a channel to vent emotions, and the stress of moving to a new city for high school, as well as
-                    engaging with the rigor of the IB program led to the creation of tracks that reflected those events as well as my growth
-                    as a producer."
-                src="images/latebloomer.png"
-            />
-
-            <ContentSection
-                heading="hibiscus"
-                content="'hibiscus' is a 10 track lofi/chill beats album I released in December of 2019. Like many artists, music for me
-                    is a reflection of life experiences. I stumbled on some old voice recordings, pictures, and videos of past, long gone relationships,
-                    and took inspiration and samples from them to piece together an album that represents my personality and general mood about relationships in general."
-                src="images/hibiscus.png"
-            />
-
-            <Fade>
-                <h1 style={titleStyle}>Live Mixes</h1>
-                <p style={pStyle}>I have three years of DJing experience for various nightclubs and events in Seattle. Below you can find some recently recorded sets I have performed for live audiences.</p>
-            </Fade>
-            <div style={divStyle}>
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/pursuit-of-happiness-set' width="300px" height="300px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-rscc-set' width="300px" height="300px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/emerald-noise-2020-mazaa-set' width="300px" height="300px" />
-            </div>
-
-            <div style={divStyle}>
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/reminiscence' width="300px" height="300px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/mazaa-live-ep-003-journey-midtempofuture-bassdubstep-mix-of-armnhmr-illenium-seven-lions-porter-etc' width="300px" height="300px" />
-                <ReactPlayer url='https://soundcloud.com/mazaamusic/vigor-set' width="300px" height="300px" />
-            </div>
-
         </div>
     )
 }

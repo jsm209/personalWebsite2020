@@ -15,7 +15,7 @@ function EyesScreen(props) {
     }
 
     let pStyle = {
-        fontSize: "20px"
+        fontSize: "16px"
     }
     
     let divStyle = {
